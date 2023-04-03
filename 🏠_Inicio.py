@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-#comment123
+#comment
 
 st.title("Inicio")
 st.sidebar.success("Seleccione una página")
