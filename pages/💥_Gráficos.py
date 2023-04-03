@@ -43,7 +43,7 @@ for zona in zonas:
                     st.markdown(
                             """
                             <div style="display: flex; justify-content: center;">
-                                <iframe src="https://www.google.com/maps/d/embed?mid=16GTQV2oujPM9HYyr20HXumbhvup_RTY&ehbc=2E312F" width="640" height="480"></iframe>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=16GTQV2oujPM9HYyr20HXumbhvup_RTY&ehbc=2E312F" width="100%" height="480"></iframe>
                             </div>
                             """,
                             unsafe_allow_html=True,
@@ -61,7 +61,7 @@ for zona in zonas:
                     st.markdown(
                             """
                             <div style="display: flex; justify-content: center;">
-                              <iframe src="https://www.google.com/maps/d/embed?mid=1qmXYDQBGvWcpjrhKYqRbN8QyVWVlB40&ehbc=2E312F" width="640" height="480"></iframe>
+                              <iframe src="https://www.google.com/maps/d/embed?mid=1qmXYDQBGvWcpjrhKYqRbN8QyVWVlB40&ehbc=2E312F" width="100%" height="480"></iframe>
                             </div>
                             """,
                             unsafe_allow_html=True,
@@ -70,7 +70,7 @@ for zona in zonas:
                     st.markdown(
                             """
                             <div style="display: flex; justify-content: center;">
-                                <iframe src="https://www.google.com/maps/d/embed?mid=1Ie-Qkar4vMQhXLN1g4sOV7H4mJONlXk&ehbc=2E312F" width="100%" height="480"></iframe>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1Ie-Qkar4vMQhXLN1g4sOV7H4mJONlXk&hl=es&ehbc=2E312F" width="100%" height="480"></iframe>
                             </div>
                             """,
                             unsafe_allow_html=True,
@@ -79,7 +79,7 @@ for zona in zonas:
                     st.markdown(
                             """
                             <div style="display: flex; justify-content: center;">
-                                <iframe src="https://www.google.com/maps/d/embed?mid=1Xwykv6g9V7EVdgGDIwvYA5qY81ghaUQ&ehbc=2E312F" width="100%" height="480"></iframe>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1Xwykv6g9V7EVdgGDIwvYA5qY81ghaUQ&hl=es&ehbc=2E312F" width="100%" height="480"></iframe>
                             </div>
                             """,
                             unsafe_allow_html=True,
@@ -88,7 +88,7 @@ for zona in zonas:
                     st.markdown(
                             """
                             <div style="display: flex; justify-content: center;">
-                                <iframe src="https://www.google.com/maps/d/embed?mid=18EIxeOgKcCgq6C9jwpoK33Q4Uj7cJZ4&ehbc=2E312F" width="100%" height="480"></iframe>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=18EIxeOgKcCgq6C9jwpoK33Q4Uj7cJZ4&hl=es&ehbc=2E312F" width="100%" height="480"></iframe>
                             </div>
                             """,
                             unsafe_allow_html=True,
@@ -97,7 +97,7 @@ for zona in zonas:
                     st.markdown(
                             """
                             <div style="display: flex; justify-content: center;">
-                                <iframe src="https://www.google.com/maps/d/embed?mid=1gO6rWM7UVuxmAkC3Ic08YJxNGYzARHo&ehbc=2E312F" width="640" height="480"></iframe>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1gO6rWM7UVuxmAkC3Ic08YJxNGYzARHo&ehbc=2E312F" width="100%" height="480"></iframe>
                             </div>
                             """,
                             unsafe_allow_html=True,
