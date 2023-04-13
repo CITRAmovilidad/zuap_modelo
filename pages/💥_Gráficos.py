@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-path_logo = '/home/MDE/Documents/streamlit_pruebas/deploy/img/Logo-CITRA-2022-01.png'
+path_logo = 'deploy/img/Logo-CITRA-2022-01.png'
 
 logo = Image.open(path_logo)
 
