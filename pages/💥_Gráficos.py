@@ -3,12 +3,41 @@ import pandas as pd
 import pickle
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
+from PIL import Image
 
 st.set_page_config(
     layout="wide"
 )
 
-st.title("Ternarys")
+path_logo = '/home/MDE/Documents/streamlit_pruebas/deploy/img/Logo-CITRA-2022-01.png'
+
+logo = Image.open(path_logo)
+
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.write(' ')
+
+with col3:
+    st.write(' ')
+
+with col4:
+    st.write(' ')
+
+with col5:
+    st.write(' ')
+    
+with col6:
+    st.image(logo, width=180, use_column_width = "always")
+
+st.write('## Descripción')
+st.write("Los siguientes gráficos representan la probabilidad futura de que ocurran **JAM**, **ACCIDENT** o **WEATHERHAZARD** en la subzona seleccionada dentro de la zona **ZUAP**. Siendo:")
+st.write("- JAM : congestión")
+st.write("- ACCIDENT : incidente víal")
+st.write("- WEATHERHAZARD : otros... (bache o hueco en la vía, semaforo dañado, peligro meteorológico en la carretera)")
 
 
 # Importar el diccionario desde el archivo binario

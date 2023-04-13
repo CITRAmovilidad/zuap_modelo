@@ -1,16 +1,41 @@
 import pandas as pd 
 import streamlit as st
+from PIL import Image
 
 st.set_page_config(
     page_title ="Gráficos citra",
-    page_icon="📈",
+    page_icon="ⒸⒾⓉⓇⒶ",
     layout="wide"
 )
 
+path_logo = '/home/MDE/Documents/streamlit_pruebas/deploy/img/Logo-CITRA-2022-01.png'
+
+logo = Image.open(path_logo)
+
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.write(' ')
+
+with col3:
+    st.write(' ')
+
+with col4:
+    st.write(' ')
+
+with col5:
+    st.write(' ')
+    
+with col6:
+    st.image(logo, width=180, use_column_width = "always")
+
+
 #comment
 
-st.title("Inicio")
-st.sidebar.success("Seleccione una página")
+st.title("Zona ZUAP (zona urbana de aire protegido)")
 
 
 st.markdown(
