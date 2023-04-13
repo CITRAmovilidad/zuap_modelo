@@ -1,5 +1,7 @@
 streamlit
-pillow 
 pandas==1.4.2
 plotly==5.6.0
+platform != 'win32' or platform == 'cygwin'
+Pillow==8.3.1
+
 
