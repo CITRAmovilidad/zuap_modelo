@@ -37,7 +37,7 @@ st.write('## Descripción')
 st.write("Los siguientes gráficos representan la probabilidad futura de que ocurran **JAM**, **ACCIDENT** o **WEATHERHAZARD** en la subzona seleccionada dentro de la zona **ZUAP**. Siendo:")
 st.write("- JAM : congestión")
 st.write("- ACCIDENT : incidente víal")
-st.write("- WEATHERHAZARD : otros... (bache o hueco en la vía, semaforo dañado, peligro meteorológico en la carretera)")
+st.write("- WEATHERHAZARD : otros... (bache o hueco en la vía,  semaforo dañado,  peligro meteorológico en la carretera)")
 
 
 # Importar el diccionario desde el archivo binario
