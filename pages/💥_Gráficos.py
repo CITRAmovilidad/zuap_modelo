@@ -65,9 +65,6 @@ ternary_data = {
     'caxis': {'title': axis_labels[2]}
 }
 
-today = datetime.now().date()
-carpeta = f"/home/MDE/Documents/streamlit_pruebas/pruebas/imagenes con predicciones/{today}"
-os.mkdir(carpeta)
 
 # Generar los gráficos para cada zona y cada intervalo
 for zona in zonas:
@@ -177,7 +174,6 @@ for zona in zonas:
                 'width': 500
             })
              # Mostrar el diagrama
-            fig.write_image(f"{carpeta}/{nombre_df}.png")
             # Mostrar el gráfico en la columna correspondiente
 
 
