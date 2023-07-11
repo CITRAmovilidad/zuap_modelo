@@ -4,6 +4,8 @@ import pickle
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 from PIL import Image
+from datetime import datetime
+import os
 
 st.set_page_config(
     layout="wide"
@@ -62,6 +64,10 @@ ternary_data = {
     'baxis': {'title': axis_labels[1]},
     'caxis': {'title': axis_labels[2]}
 }
+
+today = datetime.now().date()
+carpeta = f"/home/MDE/Documents/streamlit_pruebas/pruebas/imagenes con predicciones/{today}"
+os.mkdir(carpeta)
 
 # Generar los gráficos para cada zona y cada intervalo
 for zona in zonas:
@@ -170,6 +176,8 @@ for zona in zonas:
                 'showlegend': False,
                 'width': 500
             })
+             # Mostrar el diagrama
+            fig.write_image(f"{carpeta}/{nombre_df}.png")
             # Mostrar el gráfico en la columna correspondiente
 
 
